@@ -9,5 +9,14 @@ div {
 
 .name {
 	font-weight: bold;
+	color: red;
+}
+
+.mainTypes {
+	text-decoration: underline;
+}
+
+.secondType {
 	color: blue;
+	background: #e0ffff;
 }
