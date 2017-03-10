@@ -20,3 +20,7 @@ div {
 	color: blue;
 	background: #e0ffff;
 }
+
+.col-height {
+	min-height: 900px;
+}

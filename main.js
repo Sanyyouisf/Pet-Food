@@ -18,8 +18,8 @@ function makeDom(xhrData){
         	dogFoodString += `<p class="secondType">  + type :  ${xhrData.dog_brands[x].types[i].type}</p>`;
         	
         	for (var j=0 ;j < xhrData.dog_brands[x].types[i].volumes.length ; j++ ){
-        dogFoodString += `<p>  - volume is :  ${xhrData.dog_brands[x].types[i].volumes[j].name}</p>`;
-        dogFoodString += `<p>  - price is :  ${xhrData.dog_brands[x].types[i].volumes[j].price}</p>`;
+                dogFoodString += `<p>  - volume is :  ${xhrData.dog_brands[x].types[i].volumes[j].name}</p>`;
+                dogFoodString += `<p>  - price is :  ${xhrData.dog_brands[x].types[i].volumes[j].price}</p>`;
         	}
        	}
     }
