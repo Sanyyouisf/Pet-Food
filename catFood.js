@@ -10,6 +10,7 @@ function makeCatDom(xhrData){
     for(var x = 0; x < xhrData.cat_brands.length; x++) {
         currentCatFood = xhrData.cat_brands[x];
         catFoodString += `<h3 class= "name "> "the first cat brand name is: " ${xhrData.cat_brands[x].name} </h3>`;
+        catFoodString +=` <h5 >" cat breeds are: " ${xhrData.cat_brands[x].breeds.join(' - ')} </h5>`;
         catFoodString +=`<p  class = "mainTypes">  the two main types are: </p>`
         
         for (var i=0 ;i < xhrData.cat_brands[x].types.length ; i++ ){
