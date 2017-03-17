@@ -1,0 +1,26 @@
+div {
+	background: #add8e6;
+	color: blue;
+	margin: 25px;
+	border: 2px solid green;
+	padding: 20px;
+}
+
+
+.name {
+	font-weight: bold;
+	color: red;
+}
+
+.mainTypes {
+	text-decoration: underline;
+}
+
+.secondType {
+	color: blue;
+	background: #e0ffff;
+}
+
+.col-height {
+	min-height: 950px;
+}
